@@ -1,0 +1,5 @@
+Si le backend râle que social_user n'existe pas:
+    >Rends-toi dans backend/social/apps.py.
+    >Mets en commentaire la fonction 'ready()'.
+    >Lance les migrations. mig.sh peut le faire à ta place.
+    >Ré-active ready() ; le seeding ne crash plus, vu que la database existe.
